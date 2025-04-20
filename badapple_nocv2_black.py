@@ -1,7 +1,6 @@
 import time
 import os
 import subprocess
-import numpy as np
 
 def cleanup():
     print("\033[0m\033[?25h\033[2J\033[H")  # Reset colors, show cursor, clear screen
